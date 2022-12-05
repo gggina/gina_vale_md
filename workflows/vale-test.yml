@@ -1,17 +1,13 @@
 name: Vale-test-lint
 
-on:
-  push:
-    branches: [ main ]
+on: [pull_request]
 
 jobs:
-  vale:
+  vale-lintwe:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout
-      uses: actions/checkout@master
-   
-    - name: Vale
+    - uses: actions/checkout@v3
+    - name: vale
       uses: errata-ai/vale-action@v1.4.2
       with:
         debug: true
