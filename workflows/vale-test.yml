@@ -1,4 +1,4 @@
-name: Vale test workflow
+name: Vale-test-lint
 
 on:
   push:
