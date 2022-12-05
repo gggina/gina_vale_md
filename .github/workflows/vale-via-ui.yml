@@ -8,7 +8,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: vale
-      uses: errata-ai/vale-action@vreviewdog
+      uses: errata-ai/vale-action@reviewdog
       with:
         debug: true
         reporter: github-pr-review
