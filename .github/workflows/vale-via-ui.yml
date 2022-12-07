@@ -12,9 +12,9 @@ jobs:
       with:
         debug: true
         reporter: github-pr-review
-        styles: |
-          https://github.com/errata-ai/write-good/releases/latest/download/write-good.zip
-          https://github.com/errata-ai/Google/releases/latest/download/Google.zip
-          https://github.com/errata-ai/joblint/releases/download/v0.4.1/Joblint.zip
+#         styles: |
+#           https://github.com/errata-ai/write-good/releases/latest/download/write-good.zip
+#           https://github.com/errata-ai/Google/releases/latest/download/Google.zip
+#           https://github.com/errata-ai/joblint/releases/download/v0.4.1/Joblint.zip
       env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
